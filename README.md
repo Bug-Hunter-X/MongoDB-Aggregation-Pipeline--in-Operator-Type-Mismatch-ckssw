@@ -1,0 +1,2 @@
+# MongoDB Aggregation Pipeline $in Operator Type Mismatch
+This repository demonstrates a common error when using the `$in` operator in MongoDB aggregation pipelines: a type mismatch between the query values and the field type in the database.  Incorrectly using numbers when the field type is String leads to empty results. The solution showcases the correct usage ensuring data types match.
